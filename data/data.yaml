@@ -1,0 +1,13 @@
+path: D:/PCB_YOLO_Project/data
+
+train: images/train
+val: images/val
+nc: 6
+
+names: 
+  0: open
+  1: short
+  2: mousebite
+  3: spur
+  4: copper
+  5: pin-hole
