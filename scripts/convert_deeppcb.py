@@ -8,7 +8,7 @@ def convert_image(images):
         #根据图片编号获取标注编号
         image_name = image_path.stem
 
-        print(image_name)
+        #print(image_name)
         not_name = image_name.replace("_test", "")
 
         #获取标注路径
@@ -16,7 +16,7 @@ def convert_image(images):
         img_dir_name = img_dir.name
         group_path = image_path.parent.parent
         group_name = group_path.name
-        print(group_name)
+        #print(group_name)
         label_name = img_dir_name + "_not"
         label_path = group_path/f"{label_name}"/f"{not_name}.txt"
         if not label_path.exists():
