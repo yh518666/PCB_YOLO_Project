@@ -63,7 +63,7 @@ PCB_YOLO_Project/
 │   ├── visualize_labels.py        # 标注可视化（画框抽查）
 │   └── train.py                   # 训练 + 逐类别评估
 ├── README.md                      # 项目说明
-├── requirements.txt                # 依赖清单
+├── requirements.txt               # 依赖清单
 └── .gitignore                     # Git 忽略规则
 ```
 
